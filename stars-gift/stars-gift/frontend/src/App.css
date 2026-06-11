@@ -1,0 +1,12 @@
+.App {
+  background-color: #030408;
+  color: #f1f5f9;
+}
+
+/* Smooth fades for star clicks */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
